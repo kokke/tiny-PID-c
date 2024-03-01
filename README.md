@@ -7,7 +7,7 @@ Simple, stupid PID library for closed-loop control.
 ### API
 
 ```C
-void   pid_init (struct pid* pid, real_t p_gain, real_t i_gain, real_t d_gain);
+void   pid_init(struct pid* pid, real_t p_gain, real_t i_gain, real_t d_gain);
 void   pid_set_flags(struct pid* pid, uint8_t flags);
 void   pid_set_limits(struct pid* pid, real_t out_min, real_t out_max);
 real_t pid_update(struct pid* pid, real_t error, real_t input);
