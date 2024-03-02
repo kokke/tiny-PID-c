@@ -69,6 +69,14 @@ static real_t move_randomly(real_t p)
     else
       p -= rand() % max;
   }
+  else
+  {
+    int max = 5;
+    if (r & 1)
+      p += rand() % max;
+    else
+      p -= rand() % max;
+  }
   return p;
 }
 
