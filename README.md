@@ -2,7 +2,7 @@
 
 ## PID Library for closed loop control
 
-Simple, stupid PID library for closed-loop control.
+Simple, stupid [PID](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) library for closed-loop control.
 
 ### API
 
