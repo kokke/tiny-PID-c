@@ -15,6 +15,9 @@ We could easily just write P=1.0 and be done with it.
 So to make this a bit more fun, we introduce a restriction.
 You cannot regulate the position by more than 10 pixels.
 
+The current parameter values are suboptimal on purpose,
+to demonstrate oscillation and overshoot.
+
 
 */
 
